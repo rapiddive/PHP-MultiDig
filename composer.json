@@ -1,0 +1,30 @@
+{
+    "name": "rapiddive/multi-dig",
+    "type": "library",
+    "description": "PHP-MultiDig",
+    "minimum-stability": "stable",
+    "version": "1.0.0",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vinay Shah",
+            "email": "vinay.sudhir@gmail.com"
+        },
+        {
+            "name": "Rapid Dive",
+            "email": "rapiddive1@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1"
+    },
+    "autoload": {
+        "psr-0": {
+            "Net_DNS2": "Net/"
+        }
+    },
+    "prefer-stable": true,
+    "config": {
+        "sort-packages": true
+    }
+}
