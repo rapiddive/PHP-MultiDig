@@ -20,7 +20,7 @@
     },
     "autoload": {
         "psr-0": {
-            "Net_DNS2": "Net/"
+            "": "Net/"
         }
     },
     "prefer-stable": true,
