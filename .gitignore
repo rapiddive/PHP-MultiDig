@@ -1,1 +1,6 @@
 .DS_Store
+/var/*
+!/var/.htaccess
+/vendor/*
+/.idea
+/.gitattributes
