@@ -16,12 +16,10 @@
         }
     ],
     "require": {
-        "php": ">=7.1"
+        "php": "^7.0 || ^8.0"
     },
     "autoload": {
-        "psr-0": {
-            "": "Net/"
-        }
+        "classmap": ["Net"]
     },
     "prefer-stable": true,
     "config": {
