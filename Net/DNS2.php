@@ -954,7 +954,7 @@ class Net_DNS2
             //
             // grab the next DNS server
             //
-            $ns = next($this->nameservers);
+            $ns = last($this->nameservers);
             if ($ns === false) {
 
                 if (is_null($this->last_exception) == false) {
